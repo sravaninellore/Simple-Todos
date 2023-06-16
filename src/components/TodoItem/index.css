@@ -1,0 +1,42 @@
+/* Write your CSS here */
+.todo-container {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.todo-content {
+  font-family: 'Roboto';
+  color: #000000;
+  min-width: 160px;
+  max-width: 280px;
+  font-size: 14px;
+  text-align: left;
+}
+
+.button-align {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.button {
+  background-color: transparent;
+  border: 1px solid #ff0b37;
+  border-radius: 7px;
+  color: #ff0b37;
+  font-family: 'Roboto';
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .todo-content {
+    min-width: 380px;
+    max-width: 420px;
+  }
+}
